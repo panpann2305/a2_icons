@@ -48,10 +48,10 @@
     const dreamcatcher_el = document.getElementById ('dreamcatcher_id')
     const dreamcatcher_sound = new Audio ('sound/dreamcatcher.mp3')
     dreamcatcher_el.onpointerdown = () => {
-        dreamcatcher_el.src = 'image/A2/original/dreamcatcher.png'
+        dreamcatcher_el.src = 'image/A2/change/dreamcatcher.png'
         dreamcatcher_sound.play ()
         setTimeout (() => {
-            dreamcatcher_el.src = 'image/A2/change/dreamcatcher.png'
+            dreamcatcher_el.src = 'image/A2/original/dreamcatcher.png'
         }, 1000)
     }
 </script>
