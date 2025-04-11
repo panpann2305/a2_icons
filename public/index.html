@@ -58,7 +58,7 @@
 <script>
     const light_el = document.getElementById ('light_id')
     const light_sound = new Audio ('light/eye.mp3')
-    eye_el.onpointerdown = () => {
+    light_el.onpointerdown = () => {
         light_el.src = 'image/A2/change/light.png'
         light_sound.play ()
         setTimeout (() => {
