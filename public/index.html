@@ -42,3 +42,16 @@
     </body>
     
 </html>
+
+<script>
+    const dreamcatcher_01_el = document.getElementById ('dreamcatcher_01_id')
+    const dreamcatcher_01_sound = new Audio ('sounds/dreamcatcher_01.mp3')
+    dreamcatcher_01_el.onpointerdown = () => {
+        {
+        dreamcatcher_01_el.src = 'image/A2/dms1 a2-08.png'
+        dreamcatcher_01_sound.play ()
+        setTimeout (() => {
+            dreamcatcher_01_el.src = 'image/A2/dms1 a2-08.png'
+        }, 1000)
+    }
+</script>
