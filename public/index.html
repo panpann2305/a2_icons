@@ -33,7 +33,7 @@
             </div>
 
         <div class="row">
-            <div class="image-container"><img src="image/A2/original/dreamcatcher.png" height="200" width="200"/></div>
+            <div class="image-container"><img id="dreamcatcher_id" src="image/A2/original/dreamcatcher.png" height="200" width="200"/></div>
             <div class="image-container"><img src="image/A2/original/star.png" height="200" width="200"/></div>
             <div class="image-container"><img src="image/A2/original/calendar.png" height="200" width="200"/></div>
 
@@ -48,10 +48,10 @@
     const dreamcatcher_el = document.getElementById ('dreamcatcher_id')
     const dreamcatcher_sound = new Audio ('sound/dreamcatcher.mp3')
     dreamcatcher_el.onpointerdown = () => {
-        dreamcatcher.src = 'image/A2/original/dreamcatcher.png'
-        dreamcatcher.play ()
+        dreamcatcher_el.src = 'image/A2/original/dreamcatcher.png'
+        dreamcatcher_sound.play ()
         setTimeout (() => {
-            dreamcatcher.src = 'image/A2/change/dreamcatcher.png'
+            dreamcatcher_el.src = 'image/A2/change/dreamcatcher.png'
         }, 1000)
     }
 </script>
