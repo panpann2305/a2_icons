@@ -19,23 +19,23 @@
     <body style="background-color:rgb(255, 255, 255);"></body>
 
         <div class="row">
-            <div class="image-container"><img src="image/A2/original/dms1 a2-01.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-11.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-12.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/tunnel.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/eye.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/light.png" height="200" width="200"/></div>
 
         </div>
 
         <div class="row">
-            <div class="image-container"><img src="image/A2/original/dms1 a2-13.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-14.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-15.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/write.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/box.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/cloud.png" height="200" width="200"/></div>
 
             </div>
 
         <div class="row">
-            <div class="image-container"><img src="image/A2/original/dms1 a2-16.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-17.png" height="200" width="200"/></div>
-            <div class="image-container"><img src="image/A2/original/dms1 a2-18.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/dreamcatcher.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/star.png" height="200" width="200"/></div>
+            <div class="image-container"><img src="image/A2/original/calendar.png" height="200" width="200"/></div>
 
         </div>
         
@@ -45,14 +45,13 @@
 
 <script>
 
-    const dms1 a2-16_el = document.getElementById ('dms1 a2-16_id')
-    const dms1 a2-16_sound = new Audio ('sounds/dms1 a2-16.mp3')
-    dreamcatcher_01_el.onpointerdown = () =>
-        {
-            dms1 a2-16.src = 'image/A2/original/dms1 a2-08.png'
-            dms1 a2-16.play ()
+    const dreamcatcher_el = document.getElementById ('dreamcatcher_id')
+    const dreamcatcher_sound = new Audio ('sounds/dreamcatcher.mp3')
+    dreamcatcher_el.onpointerdown = () => {
+        dreamcatcher.src = 'image/A2/change/dreamcatcher.png'
+        dreamcatcher.play ()
         setTimeout (() => {
-            dms1 a2-16.src = 'image/A2/original/dms1 a2-08.png'
+            dreamcatcher.src = 'image/A2/original/dreamcatcher.png'
         }, 1000)
     }
 </script>
